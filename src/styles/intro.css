@@ -1,0 +1,40 @@
+.introduction-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  h1{
+    font-size: 230%;
+  }
+  
+  .introduction-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .title{
+    font-size: 150%;
+    font-weight: bold;
+  }
+  span{
+    color: #15F5BA;
+  }
+  .introduction-container img {
+    position: relative;
+    display: flex;
+    height: 50%;
+    width: 50%;
+    max-width: 100%;
+    border-radius: 80% / 90%;
+  }
+
+  @media (max-width: 400px) {
+    .introduction-container{
+      height: 60;
+    }
+    
+  }

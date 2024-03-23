@@ -1,0 +1,48 @@
+.service-cards-grid{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #card-div {
+    background-color: purple;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 150px;
+  }
+  .card-icon-div{
+    width: 100%;
+    text-align: left;
+  }
+    .service-card-content {
+      display: inline-block;
+      vertical-align: top;
+    }
+    
+    .service-card-content a {
+      display: block;
+      margin-top: 10px;
+    }
+    
+    .srvsicon {
+      display: inline-block;
+      height: auto;
+      max-width: 100%;
+      vertical-align: top;
+      width: 48px;
+      border-radius: 50%;
+    }
+  
+    .srvsimage{
+      display: inline-block;
+      height: 50%;
+      width: 100%;
+      max-width: 100%;
+      vertical-align: top;
+      width: auto;
+      border-radius: 20px;
+    }
+    

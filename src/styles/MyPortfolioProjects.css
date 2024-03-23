@@ -1,0 +1,43 @@
+/* src/components/Portfolio/ProjectCard.css */
+.project-cards-grid{
+  display: flex;
+}
+.project-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 150px;
+  }
+  
+  .project-card-content {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .project-card-content a {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .projicon {
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+    width: 48px;
+    border-radius: 50%;
+  }
+
+  .projimage{
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    vertical-align: top;
+    width: auto;
+    border-radius: 50%;
+  }
+  

@@ -1,0 +1,29 @@
+.qual-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+::-webkit-scrollbar {
+    width: 6px;
+  }
+.qual-card{
+    background-color: rgba(5, 4, 2, 0.279);
+    color: #15F5BA;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+label{
+    color: aliceblue;
+    width: 75%;
+    text-align: justify;
+}
+.qual-image{
+    position: inherit;
+    border-radius: 15px;
+    width: 40%;
+}
